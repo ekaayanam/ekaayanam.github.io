@@ -1,13 +1,23 @@
-baseURL = "https://vishvAsa.github.io/devaH/"
+baseURL = "https://ekaayanam.github.io/"
 languageCode = "en-us"
-title = "देवेषु विश्वासटिप्पन्यः"
+title = "एकायनसङ्ग्रहः"
 theme = "sanskrit-documentation-theme-hugo"
 publishDir = "build_github"
 disablePathToLower = true
 
+[taxonomies]
+  topics = "topics"
+
+# https://discourse.gohugo.io/t/permalink-for-taxonomy-list-page/25149
+[permalinks]
+  topics = "/taxa/topics/:slug/"
+
+
 [params]
-  githubEditMePathBase = "https://github.com/vishvAsa/devaH/edit/content/"
-  contactLink = "https://github.com/vishvAsa/devaH/issues/new"
+  githubEditMePathBase = "https://github.com/ekaayanam/ekaayanam.github.io/edit/content/"
+  contactLink = "https://github.com/ekaayanam/ekaayanam.github.io/issues/new"
+  build_img = "https://github.com/ekaayanam/ekaayanam.github.io/actions/workflows/build.yml/badge.svg"
+  build_url = "https://github.com/ekaayanam/ekaayanam.github.io/actions/workflows/build.yml"
   fullSearchURL = "/full_search"
   env = "production"  
   disqusShortcode = "vvasuki-site"
@@ -22,6 +32,6 @@ disablePathToLower = true
 [module]
 
   [[module.mounts]]
-    source = "../devaH-content"
+    source = "../ekaayanam-content"
     target = "content"
 
