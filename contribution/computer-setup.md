@@ -46,4 +46,4 @@ cd ekaayanam-content
 ```
 
 - यथापेक्षं सञ्चिकाः सम्पाद्य
-- github desktop द्वारा नुदेत् (push इति कुर्यात्)।
+- atom द्वारा वा github desktop द्वारा वा नुदेत् (commit, push इति कुर्यात्)।
