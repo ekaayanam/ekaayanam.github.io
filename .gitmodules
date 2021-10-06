@@ -5,3 +5,4 @@
 	path = content
 	url = https://github.com/ekaayanam/ekaayanam.github.io.git
 	branch = content
+	update = merge
