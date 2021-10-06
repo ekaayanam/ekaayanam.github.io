@@ -15,8 +15,8 @@ unicode_script = "devanagari"
 - सङ्गणके समीचीनस्थानप्राप्तिः इति भागे यद् उक्तं तत् कृत्वा
 
 ```
-git clone --single-branch --depth 1 --branch master https://github.com/ekaayanam/ekaayanam.github.io.git ekaayanam-master
-cd ekaayanam-master
+git clone --single-branch --depth 1 --branch master https://github.com/ekaayanam/ekaayanam.github.io.git ekaayanam
+cd ekaayanam
 git submodule update --init  themes/sanskrit-documentation-theme-hugo
 cd ..
 
@@ -30,7 +30,7 @@ cd ..
 - सङ्गणके समीचीन-स्थान-प्राप्तिः इति भागे यद् उक्तं तत् कृत्वा
 
 ```
-cd ekaayanam-master
+cd ekaayanam
 git pull upstream master
 cd themes/sanskrit-documentation-theme-hugo/
 git pull origin master
@@ -42,7 +42,8 @@ hugo server --renderToDisk --config ./config_dev.toml
 - सङ्गणके समीचीन-स्थान-प्राप्तिः इति भागे यद् उक्तं तत् कृत्वा
 
 ```
-cd ekaayanam-content
+cd ekaayanam
+cd content
 ```
 
 - यथापेक्षं सञ्चिकाः सम्पाद्य
