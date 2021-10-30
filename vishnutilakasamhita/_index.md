@@ -1,4 +1,4 @@
 +++
-title = "+विष्णुतिलकसंहित"
+title = "+विष्णुतिलकसंहिता"
 unicode_script = "devanagari"
 +++
