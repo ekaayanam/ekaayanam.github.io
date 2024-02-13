@@ -47,7 +47,7 @@ jobs:
         git submodule update --remote --merge --recursive
     - name: Setup Hugo
       id: setup_hugo
-      if: steps.update_submods.conclusion == 'success'
+      if: ${{ steps.changed-files.conclusion == 'skipped' || steps.filter_changed_files.outputs.count != '0'}}
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: "0.95.0"
